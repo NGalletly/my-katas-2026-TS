@@ -1,0 +1,25 @@
+{
+  "name": "my-katas-2026-ts",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGalletly/my-katas-2026-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NGalletly/my-katas-2026-TS/issues"
+  },
+  "homepage": "https://github.com/NGalletly/my-katas-2026-TS#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9"
+  }
+}
