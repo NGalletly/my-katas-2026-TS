@@ -23,4 +23,8 @@ describe("countVeg", () => {
     ];
     expect(countVeg(vegetables, "root")).toBe(9);
   });
+  test("should return 0 if type does not exist'", () => {
+    const vegetables = [{ name: "Parsnip", type: "root", quantity: 4 }];
+    expect(countVeg(vegetables, "brassica")).toBe(0);
+  });
 });
