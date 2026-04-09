@@ -27,4 +27,8 @@ describe("countVeg", () => {
     const vegetables = [{ name: "Parsnip", type: "root", quantity: 4 }];
     expect(countVeg(vegetables, "brassica")).toBe(0);
   });
+  test("returns error message if quantity is a negtive integer", () => {
+    const vegetables = [{ name: "Parsnip", type: "root", quantity: -5 }];
+    expect(countVeg(vegetables, "root")).toBe("Error with quantity!");
+  });
 });

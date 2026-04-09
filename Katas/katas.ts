@@ -9,5 +9,6 @@ export default function countVeg(inputArray: vegetable[], targetType: string) {
   inputArray.forEach((element) => {
     if (element.type === targetType) total += element.quantity;
   });
-  return total;
+
+  return total < 0 ? "Error with quantity!" : total;
 }
